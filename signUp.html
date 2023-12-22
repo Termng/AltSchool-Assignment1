@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="signUp.html">Sign Up</a>
+    </nav>
+
+
+    <h1>Application Form</h1>
+    <h3>Fill in your details</h3>
+
+    <form action="">
+        <label for="Fname">First Name</label>
+        <input type="text" id="Fname" required placeholder="Enter First Name">
+
+        <label for="Lname">Last Name Name</label>
+        <input type="text" id="Lname" required placeholder="Enter Last Name">
+
+        <div>
+            <label for="Gender">Gender</label>
+            <select name="Gender" id="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Undergraduate">Other</option>
+            </select>
+        </div>
+        
+        <label for="Date">Date of Birth</label>
+        <input type="date" id="Date">
+        
+        <label for="email">Email address</label>
+        <input type="email" id="email" placeholder="Enter email address">
+        
+        <div>
+            <label for="edu">Education Level</label>
+            <select name="edu" id="edu">
+                <option value="High School">High School</option>
+                <option value="Diploma">Diploma</option>
+                <option value="Undergraduate">Undergraduate</option>
+                <option value="Niger">B.sc</option>
+                <option value="Masters">Masters</option>
+                <option value="Ph.d">Ph.d</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="Nigeria">Nigeria</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Niger">Niger</option>
+                <option value="Ghana">Ghana</option>
+                <option value="South Africa">South Africa</option>
+            </select>
+        </div>
+        
+        <label for="city">State/City of Residence</label>
+        <input type="text" id="city">
+
+        <div>
+            <label for="workStatus">Employment Status</label>
+            <select name="Employment" id="workStatus">
+                <option value="Employed">Employed</option>
+                <option value="Unemployed">Unemployed</option>
+                <option value="Self Employed">Self Employed</option>
+            </select>
+        </div>
+
+        <label for="contact">Phone Number </label>
+        <input type="number" id="contact" required>
+
+
+        <div>
+            <label for="school">Choose School</label>
+            <select name="Specialization" id="school">
+                <option value="School of Data">School of Data</option>
+                <option value="School of Engineering">School of Engineering</option>
+                <option value="School of Product">School of Product</option>
+                <option value="School of Business">School of Business</option>
+                <option value="School of Creative Economy">School of Creative Economy</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="course">Choose Course of Study</label>
+            <select name="courseOfStudy" id="course">
+                <option value="Backend Engineering">Backend Engineering</option>
+                <option value="Frontend Engineering">Frontend Engineering</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="channe">How did you hear about Us</label>
+            <select name="channel" id="channel">
+                <option value="Linkedin">Linkedin</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+
+        <label for="discount">Scholarship/Discount code (Optional) </label>
+        <input type="text" id="discount" placeholder="Scholarship or Student ID or discount code">
+
+
+        <p>By clicking continue, I agree to  Terms of Use and acknowledge that I
+            have read the  Privacy Policy.</p>
+
+        <Button type="submit">Proceed</Button>
+
+        <p>Already have an account? <a href="/">Sign In</a></p>
+
+
+    </form>
+
+    
+</body>
+</html>
